@@ -182,6 +182,7 @@ hr {
     "premium   mobile    mobile"
     "premium   global    global"
     "interview interview rich";
+    padding-bottom: 7rem;
 }
 .area h1 {
     font-size: 1.5rem;
@@ -196,4 +197,30 @@ hr {
     line-height: 1.25rem;
     color: #FFFFFF;
     opacity: 60%;
+
+}
+/* featured section */
+.featured {
+    background-color: #1A0B2E;
+}
+.featured h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: auto;
+    padding-top: 7rem;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+.video {
+    width: 78%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+.card {
+    width: 380px;
+    height: 560px;
+    border: 1px solid #1A0B2E;
 }
