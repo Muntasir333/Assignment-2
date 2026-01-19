@@ -1,0 +1,199 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+/* nav section */
+nav {
+    background-color: #1A0B2E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 200px;
+}
+ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size:1rem;
+}
+.btn {
+    padding: 0.78125rem 1rem;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 0.78125rem 1rem;
+    border: 1px solid black;
+    border-radius: 3rem;
+    cursor: pointer;
+}
+/* banner section */
+.ban {
+    height: 47.5rem;
+    background-image: url(./assets/hero-circle.png), url(./assets/hero-bg.png);
+    background-size: 355px, cover; 
+    background-position: 50% 85px,center;
+    background-repeat: no-repeat, no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.banner .ima {
+    position: relative;
+    top: 130px;
+    margin-bottom: 0;
+}
+.new {
+    position: relative;
+    right: -130px;
+    top: -540px;
+    
+}
+.text {
+    margin-top: 15rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+.banner h1 {
+    font-size: 4rem;
+    font-weight: 800;
+    color: white;
+}
+.banner p{
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    opacity: 60%;
+}
+.bt {
+     color: #00FF88;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 0.78125rem 1rem;
+    border: 1px solid #00FF88;
+    border-radius: 3rem;
+    cursor: pointer;
+
+}
+/* about section */
+.about {
+    background-color: #1A0B2E;
+}
+.para {
+    width: 78%;
+    margin: 0 auto;
+    text-align: center;
+    color: #FFFFFF;
+}
+.para h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: auto;
+    margin-bottom: 1rem;
+}
+.para p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    opacity: 60%;
+}
+#gap {
+    margin-top: 2rem;
+}
+hr {
+    width: 75rem;
+    color: #FFFFFF;
+    margin: 5rem auto;
+}
+.achievement {
+    width: 78%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5rem;
+    padding-bottom: 7rem;
+}
+.achievement h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: auto;
+    color: #00FF88;
+}
+.achievement h2{
+       font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    color: #FFFFFF;
+    opacity: 60%;
+}
+.box {
+    text-align: center;
+}
+/* why container */
+.why {
+    background-color: #230E3D;
+}
+.container {
+    width: 78%;
+    margin: 0 auto;
+    padding-top: 7rem;
+}
+.container h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: auto;
+    margin-bottom: 1rem;
+    color: #FFFFFF;
+    text-align: center;
+}
+.area>* {
+    border: 1px solid;
+    background-color: rgba(55, 17, 101, 0.4);
+    border-radius: 40px;
+    padding: 40px;
+    box-shadow: 0px 4px 4px 0px;
+}
+.premium {
+    grid-area: premium;
+}
+.mobile {
+    grid-area: mobile;
+}
+.global {
+    grid-area: global;
+}
+.interview {
+    grid-area: interview;
+}
+.rich {
+    grid-area: rich;
+}
+.area {
+    display: grid;
+    gap: 20px;
+    grid-template-areas: 
+    "premium   mobile    mobile"
+    "premium   global    global"
+    "interview interview rich";
+}
+.area h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: auto;
+    margin: 1rem 0;
+    color: #FFFFFF;
+}
+.area p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    color: #FFFFFF;
+    opacity: 60%;
+}
