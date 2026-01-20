@@ -300,8 +300,6 @@ iframe {
     gap: 0.5rem;
 }
 .logo img {
-    /* border: 1px solid #1A0B2E; */
-    /* border-radius: 50%; */
     width: 17px;
     height: 17px;
     cursor: pointer;
