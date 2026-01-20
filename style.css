@@ -40,7 +40,7 @@ button:hover {
 .ban {
     height: 47.5rem;
     background-image: url(./assets/hero-circle.png), url(./assets/hero-bg.png);
-    background-size: 355px, cover; 
+    background-size: 22.18rem, cover; 
     background-position: 50% 87px,center;
     background-repeat: no-repeat, no-repeat;
     animation: jumping 2s ease-in-out infinite alternate;
@@ -393,5 +393,55 @@ footer {
     }
     to {
         background-size: 360px , cover;
+    }
+}
+/* responsive layout */
+@media screen and (max-width: 576px) {
+    nav {
+       padding: 20px; 
+    }
+    .nav img {
+        width: 80px;
+        height: 20px;
+    }
+    .banner {
+        width: 100%;
+    }
+    .achievement {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    }
+    .video {
+        display: grid;
+        grid-template-columns: repeat(1,1fr)
+    }
+    .park {
+        flex-direction: column;
+    }
+    footer {
+        background-size: cover;
+    background-position: center
+    }
+    .area {
+        grid-template-areas: 
+        "premium"
+        "mobile"
+        "global"
+        "interview"
+        "Rich";
+    }
+    hr {
+        width: 95%;
+    }
+    .logos {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    body {
+    overflow-x: hidden;
+    }
+    .video{
+        width: 100%;
     }
 }
