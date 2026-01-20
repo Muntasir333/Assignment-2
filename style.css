@@ -61,8 +61,8 @@ button:hover {
 }
 .new {
     position: relative;
-    right: -130px;
-    top: -540px;
+    right: -8.125rem;
+    top: -33.75rem;
     
 }
 .text {
@@ -441,7 +441,45 @@ footer {
     body {
     overflow-x: hidden;
     }
-    .video{
-        width: 100%;
+    .video h1 {
+        font-size: 1rem;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    .new {
+        width: 100px;
+        height: 80px;
+    }
+    footer .tech {
+        width: 219px;
+        height: 32px;
+    }
+    .banner h1 {
+    font-size: 2.5rem;
+    }
+    .para h1 {
+    font-size: 2rem;
+    }
+    .achievement h1 {
+    font-size: 2.5rem;
+    }
+    .container h2 {
+    font-size: 2rem;
+    }
+    .area h1 {
+    font-size: 1.3rem;
+    }
+    .featured h2 {
+    font-size: 2rem;
+    }
+    .host h1 {
+    font-size: 2rem;
+    }
+    .alex {
+        text-align: center;
+    }
+    .logo {
+        justify-content: center;
     }
 }
